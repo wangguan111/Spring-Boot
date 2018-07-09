@@ -27,7 +27,20 @@ Chapter 3: Customizing configuration
 
 	3.1 Overriding Boot auto-configuration
 
+		1. WebSecurityConfigurerAdapter
+		2. UserDetails
+		3. isAccountNonExpired isAccountNonLocked isCredentialsNonExpired isEnabled
+
 	3.2 Creating a custom security configuration
+
+		1. application.properties/application.yml
+			1.1 spring.main.show-banner = false
+		 	1.2 spring.thymeleaf.cache=false
+		 	1.3 server.port=8000
+			1.4 logging
+			1.5 datasource
+		2. @ConfigurationProperties(prefix="amazon")
+		3. @Profile("production")
 
 	3.3 Cudtomizing application error pages
 
