@@ -78,6 +78,9 @@ Chapter 7: Taking a peek inside with the actuator
 
 	7.1 Exploring the Actuator endpoints
 
+		1. compile('org.springframework.boot:spring-boot-starter-actuator')
+		2. compile('org.springframework.boot:spring-boot-configuration-processor:2.0.1.RELEASE')
+
 	7.2 Connecting to the Actuator remotes shell
 
 	7.3 monitoring your application with JMX
