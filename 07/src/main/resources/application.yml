@@ -1,0 +1,26 @@
+error:
+  whitelabel:
+    enabled: false
+
+amazon:
+  associate_id: habuma-20
+
+logging:
+  level:
+    root: INFO
+
+endpoints:
+  jmx:
+    domain: readinglist
+    uniqueNames: true
+  beans:
+    sensitive: true
+
+management:
+  context-path: /mgmt
+  health:
+    mongo:
+      enabled: true
+
+server:
+  port: 8081
