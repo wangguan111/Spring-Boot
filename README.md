@@ -10,7 +10,7 @@ Chapter 2: Developing your first spring boot application
 
 	2.1 Putting Spring Boot to work
 
-		1. @SpringBootApplication = 的@Configuration + @ComponentScan + @EnableAutoConfiguration
+		1. @SpringBootApplication = @Configuration + @ComponentScan + @EnableAutoConfiguration
 		2. build.gradle
 
 	2.2 Using starter dependencies
